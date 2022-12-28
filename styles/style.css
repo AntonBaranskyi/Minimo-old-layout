@@ -1,0 +1,166 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+header{
+	height: 140px;
+}
+header div img{
+	margin-top: 70px;
+	display: inline-block;
+}
+header nav ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end; 
+}
+header nav ul li{
+	margin-top: 70px;
+	padding-left: 80px;
+	font-size: 14px;	
+	text-transform: uppercase;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #626262;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+div.post{
+	margin-bottom: 100px;
+}
+section.category a{
+	font-size: 14px;
+	color: #b4ad9e;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+section.category a:hover{
+	text-decoration: underline;
+	}
+section.category h2{
+	color: #626262;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+div.content p{
+	line-height: 24px;
+	color: #626262;
+	font-size: 14px;
+}
+a.coment{
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+div.content{
+	padding-bottom: 80px;
+}
+section.next-post{
+	margin-top: 136px;
+}
+section.next-post div.post img{
+	display: block;
+}
+section.next-post div.post a{
+	color: #b4ad9e;
+	font-size: 14px;
+	padding-bottom: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 36px;
+}
+section.next-post div.post h2{
+	color: #626262;
+	font-size: 30px;
+	padding-bottom: 40px;
+	
+}
+section.next-post div.post a:hover{
+	text-decoration: underline;
+}
+section.next-post div.post p{
+	line-height: 24px;
+	color: #626262;
+	font-size: 14px;
+	max-width: 420px;
+
+}
+section.next-post div.post{
+	margin-bottom: 130px;
+}
+section.newsletter{
+	height: 280px;
+	background-color: #f0f0f0;
+	padding-top: 70px;
+}
+section.newsletter div.sign{
+	text-align: center;
+	font-size: 30px;
+	color: #333333;
+	padding-bottom: 90px;
+}
+section.newsletter form{
+	width: 500px;
+	border-bottom:1px solid #000000;
+	margin: 0 auto;
+	padding-bottom: 6px;
+}
+section.newsletter form input{
+	border:none;
+	background:inherit; 
+}
+section.newsletter form  button{
+	float: right;
+	border:none;
+}
+section.last-post{
+	margin-top: 100px;
+}
+section.last-post div.post img{
+	display: block;
+}
+section.last-post div.post a{
+	color: #b4ad9e;
+	font-size: 14px;
+	padding-bottom: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 36px;
+}
+section.last-post div.post h2{
+	color: #626262;
+	font-size: 30px;
+	padding-bottom: 40px;
+	
+}
+section.last-post div.post a:hover{
+	text-decoration: underline;
+}
+section.last-post div.post p{
+	line-height: 24px;
+	color: #626262;
+	font-size: 14px;
+	max-width: 420px;
+
+}
+section.last-post div.post{
+	margin-bottom: 130px;
+}
+section.last-post div.button a{
+	text-decoration: none;
+	color: #626262;
+	text-align: center;
+	border:1px solid #626262;
+	padding: 24px 40px 23px 34px;
+	width: 162px;
+	font-size: 20px;
+}
+section.last-post div.button{
+	margin:0 auto;
+	margin-top: 50px;
+	min-height: 200px;
+
+}
